@@ -3,9 +3,7 @@ title: snippetB
 tags: utility, function
 ---
 
-Explain briefly what the snippet does.
-
-Explain briefly how the snippet works.
+Snippet B has been changed
 
 ```js
 const snippetB = () => undefined;
