@@ -1,10 +1,10 @@
 module.exports = {
   // Project metadata
-  name: `30 seconds starter`,
-  description: `Kick off your next, great 30 seconds project with this starter.`,
-  shortName: `30s`,
-  repositoryUrl: `https://github.com/30-seconds/30-seconds-starter`,
-  siteUrl: `https://30secondsofcode.org`,
+  name: `30 seconds of Vue`,
+  description: `Short Vue SFCs for all your development needs.`,
+  shortName: `30s-of-vue`,
+  repositoryUrl: `https://github.com/ellipticcurv3/30-seconds-of-vue`,
+  siteUrl: `https://30-seconds-of-vue.netlify.com`,
   // Path information
   snippetPath: `snippets`,
   snippetDataPath: `snippet_data`,
