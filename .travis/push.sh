@@ -25,7 +25,7 @@ upload_files() {
   if [ $TRAVIS_EVENT_TYPE != "pull_request" ]; then
     if [ $TRAVIS_BRANCH == "master" ]; then
       echo "Pushing to master branch..."
-      git push --force --quiet "https://${GH_TOKEN}@github.com/30-seconds/30-seconds-starter.git" master
+      git push --force --quiet "https://${GH_TOKEN}@github.com/ellipticcurv3/30-seconds-of-vue.git" master
     fi
   fi
 }
