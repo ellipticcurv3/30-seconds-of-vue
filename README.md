@@ -35,7 +35,7 @@
 This snippet creates a Polaroid-style picture. It uses `props` to obtain the url and a Slot to obtain the caption, then renders a `<figure>` element with a caption encapsulated within `<figcaption>`.
 
 ```js
-```vue
+```html
 <template>
   <figure class="polaroid">
     <div class="box-shadow">
@@ -97,7 +97,7 @@ This snippet creates a Polaroid-style picture. It uses `props` to obtain the url
 <summary>Examples</summary>
 
 ```js
-```vue
+```html
 <Polaroid url="https://picsum.photos/500">
     A nice caption goes here
 </Polaroid>
