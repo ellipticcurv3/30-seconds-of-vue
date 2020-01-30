@@ -22,14 +22,14 @@
       "type": "snippetListing",
       "title": "snippetB",
       "attributes": {
-        "text": "Explain briefly what the snippet does.\n\nExplain briefly how the snippet works.\n\n",
+        "text": "Snippet B has been changed\n\n",
         "tags": [
           "utility",
           "function"
         ]
       },
       "meta": {
-        "hash": "e2fdcc89139e4017fe734b51104385c5af412c1ab85ff3753d2c843977b292dc"
+        "hash": "bbfdbb62d8969fa9aad1f7330bf92f692ce3fbb2417b1e9fc4f02f90ae4232dd"
       }
     }
   ],

@@ -1,6 +1,6 @@
 ![Logo](/assets/logo.png)
 
-# 30 seconds starter
+# 30 seconds of Vue
 
 > Curated collection of useful snippets that you can understand in 30 seconds or less.
 
@@ -66,9 +66,7 @@ snippetA(''); // null
 
 ### snippetB
 
-Explain briefly what the snippet does.
-
-Explain briefly how the snippet works.
+Snippet B has been changed
 
 ```js
 const snippetB = () => undefined;
