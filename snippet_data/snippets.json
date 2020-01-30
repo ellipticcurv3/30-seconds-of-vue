@@ -1,45 +1,23 @@
 {
   "data": [
     {
-      "id": "snippetA",
-      "title": "snippetA",
+      "id": "Polaroid",
+      "title": "Polaroid",
       "type": "snippet",
       "attributes": {
-        "fileName": "snippetA.md",
-        "text": "This snippet was changed.\n\nExplain briefly what the snippet does.\n\nExplain briefly how the snippet works.\n\n",
+        "fileName": "Polaroid.md",
+        "text": "This snippet creates a Polaroid-style picture. It uses `props` to obtain the url and a Slot to obtain the caption, then renders a `<figure>` element with a caption encapsulated within `<figcaption>`.\n\n",
         "codeBlocks": {
-          "code": "const snippetA = () => null;",
-          "example": "snippetA(''); // null"
+          "code": "```vue\n<template>\n  <figure class=\"polaroid\">\n    <div class=\"box-shadow\">\n      <img :src=\"url\" :alt=\"caption\" class=\"photo\" />\n    </div>\n    <figcaption class=\"caption\">\n      <Slot>An example Polaroid made as a Vue SFC</Slot>\n    </figcaption>\n  </figure>\n</template>\n\n<script>\n  export default {\n    name: \"Polaroid\",\n    props: {\n    url: {\n        type: String,\n        required: false,\n        default() {\n          return \"https://picsum.photos/500\";\n        },\n      },\n    }\n  };\n</script>\n\n<style scoped>\n.polaroid {\n  border: 1px solid #eee;\n  box-shadow: 2px 2px 11px 0 rgba(50,50,50,0.08);\n  font-family: sans-serif;\n  margin: .5em 0;\n  max-width: 400px;\n  padding: 2em 2em 0;\n  position: relative;\n}\n\n.box-shadow {\n  box-shadow: inset 2px 2px 2px 1px rgba(50,50,50,0.11);\n}\n\n.photo {\n  display: block;\n  height: auto;\n  position: relative;\n  width: 100%;\n  z-index: -1;\n}\n\n.caption {\n  margin: 1.33em 0 1.5em;\n  text-align: center;\n}\n</style>\n```",
+          "example": "```vue\n<Polaroid url=\"https://picsum.photos/500\">\n    A nice caption goes here\n</Polaroid>\n```"
         },
         "tags": [
-          "function",
-          "utility",
-          "helper",
-          "beginner"
+          "beginner",
+          "molecule"
         ]
       },
       "meta": {
-        "hash": "fdec9ada4eef71d200520c220a4eb39a3767e31c9325eabf65c985cfa5284adf"
-      }
-    },
-    {
-      "id": "snippetB",
-      "title": "snippetB",
-      "type": "snippet",
-      "attributes": {
-        "fileName": "snippetB.md",
-        "text": "Snippet B has been changed\n\n",
-        "codeBlocks": {
-          "code": "const snippetB = () => undefined;",
-          "example": "snippetB(''); // undefined"
-        },
-        "tags": [
-          "utility",
-          "function"
-        ]
-      },
-      "meta": {
-        "hash": "bbfdbb62d8969fa9aad1f7330bf92f692ce3fbb2417b1e9fc4f02f90ae4232dd"
+        "hash": "817a6db1889706848c7d7771cad422619bbbf1a443f4404faf8eb55f05850a2d"
       }
     }
   ],

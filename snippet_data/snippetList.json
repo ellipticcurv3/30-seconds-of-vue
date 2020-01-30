@@ -1,35 +1,18 @@
 {
   "data": [
     {
-      "id": "snippetA",
+      "id": "Polaroid",
       "type": "snippetListing",
-      "title": "snippetA",
+      "title": "Polaroid",
       "attributes": {
-        "text": "This snippet was changed.\n\nExplain briefly what the snippet does.\n\nExplain briefly how the snippet works.\n\n",
+        "text": "This snippet creates a Polaroid-style picture. It uses `props` to obtain the url and a Slot to obtain the caption, then renders a `<figure>` element with a caption encapsulated within `<figcaption>`.\n\n",
         "tags": [
-          "function",
-          "utility",
-          "helper",
-          "beginner"
+          "beginner",
+          "molecule"
         ]
       },
       "meta": {
-        "hash": "fdec9ada4eef71d200520c220a4eb39a3767e31c9325eabf65c985cfa5284adf"
-      }
-    },
-    {
-      "id": "snippetB",
-      "type": "snippetListing",
-      "title": "snippetB",
-      "attributes": {
-        "text": "Snippet B has been changed\n\n",
-        "tags": [
-          "utility",
-          "function"
-        ]
-      },
-      "meta": {
-        "hash": "bbfdbb62d8969fa9aad1f7330bf92f692ce3fbb2417b1e9fc4f02f90ae4232dd"
+        "hash": "817a6db1889706848c7d7771cad422619bbbf1a443f4404faf8eb55f05850a2d"
       }
     }
   ],
