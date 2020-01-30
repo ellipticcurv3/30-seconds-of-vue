@@ -5,7 +5,7 @@
       "type": "snippetListing",
       "title": "snippetA",
       "attributes": {
-        "text": "Explain briefly what the snippet does.\n\nExplain briefly how the snippet works.\n\n",
+        "text": "This snippet was changed.\n\nExplain briefly what the snippet does.\n\nExplain briefly how the snippet works.\n\n",
         "tags": [
           "function",
           "utility",
@@ -14,7 +14,7 @@
         ]
       },
       "meta": {
-        "hash": "2562cf9c66384ee4988cb0efad8239376b70effe33999f6e2e2bc4c6ee2fc31e"
+        "hash": "fdec9ada4eef71d200520c220a4eb39a3767e31c9325eabf65c985cfa5284adf"
       }
     },
     {
