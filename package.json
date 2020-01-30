@@ -1,7 +1,7 @@
 {
-  "name": "30-seconds-starter",
+  "name": "30-seconds-of-vue",
   "private": true,
-  "description": "A simple starter repository for 30-seconds projects.",
+  "description": "Short Vue SFCs for all your development needs.",
   "version": "1.0.0",
   "author": "30-seconds",
   "devDependencies": {
@@ -58,9 +58,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/30-seconds/30-seconds-starter"
+    "url": "https://github.com/ellipticcurv3/30-seconds-of-vue"
   },
   "bugs": {
-    "url": "https://github.com/30-seconds/30-seconds-starter/issues"
+    "url": "https://github.com/ellipticcurv3/30-seconds-of-vue/issues"
   }
 }
